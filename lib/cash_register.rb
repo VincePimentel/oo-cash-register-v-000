@@ -1,5 +1,5 @@
 class CashRegister
   def initialize
-    @total += discount
+    @total += 20
   end
 end
