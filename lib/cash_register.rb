@@ -17,6 +17,5 @@ class CashRegister
     else
       puts "There is no discount to apply."
     end
-    self.total
   end
 end
