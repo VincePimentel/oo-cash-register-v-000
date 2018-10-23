@@ -10,6 +10,6 @@ class CashRegister
     self.title = title
     self.price = price
     self.quantity = quantity
-    self.total = self.price * self.quantity
+    self.total += self.price * self.quantity
   end
 end
